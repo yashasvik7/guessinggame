@@ -11,7 +11,7 @@ do
 	if [[ $answ -eq $count ]]
 		
 		then condition=0
-		echo "you was correct!"
+		echo "congrats, you were correct!"
 	elif [[ $answ -lt $count ]]
 		then
 		echo "wrong! more than that"
